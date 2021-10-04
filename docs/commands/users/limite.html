@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <title>Comando - limite</title>
+  </head>
+  <body class="commands-body">
+
+    <!-- Columna de la lista de comandos y botones de navegación -->
+    <div>
+      <div class="commands-container">
+        <h2>Comandos de Usuario</h2>
+
+        <!-- Listado de comandos disponibles -->
+        <div class="commands-list">
+          <ul>
+            <li><a href="./anfitrion.html">   anfitrion</a></li>
+            <li><a href="./ayuda.html">       ayuda</a></li>
+            <li><a href="./bitrate.html">     bitrate</a></li>
+            <li><a href="./cambios.html">     cambios</a></li>
+            <li><a href="./cerrar.html">      cerrar</a></li>
+            <li><a href="./crear.html">       crear</a></li>
+            <li><a href="./detalles.html">    detalles</a></li>
+            <li><a href="./informacion.html"> informacion</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="./invitar.html">invitar</a></li>
+            <li><a href="./limite.html">limite</a></li>
+            <li><a href="./listablanca.html">listablanca</a></li>
+            <li><a href="./listanegra.html">listanegra</a></li>
+            <li><a href="./modo.html">modo</a></li>
+            <li><a href="./mostrar.html">mostrar</a></li>
+            <li><a href="./nombre.html">nombre</a></li>
+            <li><a href="./ocultar.html">ocultar</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="./privado.html">privado</a></li>
+            <li><a href="./publico.html">publico</a></li>
+            <li><a href="./region.html">region</a></li>
+            <li><a href="./sugerencia.html">sugerencia</a></li>
+            <li><a href="./video.html">video</a></li>
+            <li><a href="./toctoc.html">toctoc</a></li>
+            <li><a href="./texto.html">texto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Botones de navegación de comandos -->
+      <nav>
+        <a href="./anfitrion.html" class="commands-options">          🌍 Usuario</a>
+        <a href="../mods/forzarcierre.html" class="commands-options"> 🚦 Moderación</a>
+        <a href="../admins/auto.html" class="commands-options">       🔧 Administración</a>
+        <a href="../../index.html" class="commands-options">          🔰 Inicio</a>
+      </nav>
+    </div>
+
+    <!-- Contenedor de la información del comando -->
+    <div class="command-info">
+      <h2>Comando << limite >></h2>
+      <p>
+        Configura el límite de usuarios del canal. <br>
+        Este comando recibe números como argumentos para funcionar. Sin <br>
+        embargo, el número no puede ser mayor al límite configurado por el <br>
+        servidor ni menor a 0. Si el servidor no tiene configurado un <br>
+        límite, el límite por defecto es de 99 usuarios. <br><br>
+        Si el límite ingresado es 0, se utilizará el límite máximo configurado.
+      </p>
+      <h3>Uso del Comando</h3>
+      <p>
+        [prefijo]limite [número]
+      </p>
+      <h3>Ejemplos de Uso</h3>
+      <p>
+        [prefijo]limite 2 <br>
+        [prefijo]limite 15 <br>
+        [prefijo]limite 0
+      </p>
+    </div>
+
+    <!-- Imagen y nombre del bot, seguidos por una breve introducción a sus funciones. -->
+    <img src="../../res/images/pet-logo.png" alt="EasyVC Logo" class="cmd-logo">
+  </body>
+</html>
